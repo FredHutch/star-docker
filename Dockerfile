@@ -20,7 +20,7 @@ RUN curl -LO https://github.com/alexdobin/STAR/archive/2.7.1a.tar.gz
 
 RUN tar zxf 2.7.1a.tar.gz
 
-WORKDIR STAR-2.7.1a/source
+WORKDIR /STAR-2.7.1a/source
 
 RUN make STAR
 
